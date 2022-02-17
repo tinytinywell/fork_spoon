@@ -36,9 +36,9 @@ class Net(nn.Module):
                                  )
         self.fc = nn.Sequential(
             nn.Linear(256 * 6 * 6, 4096),
-            nn.LeakyReLU(0.1),
+            nn.ReLU(),
             nn.Linear(4096, 1000),
-            nn.LeakyReLU(0.1),
+            nn.ReLU(),
             nn.Linear(1000, 2)
         )
         self.dropout = nn.Dropout(p=0.5)
