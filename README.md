@@ -1,5 +1,10 @@
 # fork_spoon
-1. Download the CNN_fs.pt in the master branch, put it into the folder the same as test_fs.py.  
+1. Required:
+* pytorch  
+* opencv  
+* numpy  
+* CNN_fs.pt  
+Download the CNN_fs.pt in the master branch, put it into the folder the same as test_fs.py.  
   
 2. Change the path of 
 * 99th line, load the CNN_fs.pt file:  
